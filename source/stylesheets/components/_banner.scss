@@ -1,0 +1,42 @@
+
+
+ .banner {
+    color: $old-rose;
+    text-align: center;
+    height: calc(100vh - 70px);
+    background-size: cover !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+input.form-control.input-lg, select.form-control.input-lg {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid $old-rose;
+    border-radius: none;
+    width: 200;
+    margin-right: 100px;
+}
+
+select.form-control.input-lg{
+  border-bottom:none;
+}
+
+select.option {
+  color: white!important;
+}
+
+.input-lg, .input-group-lg > .form-control, .input-group-lg >
+.input-group-addon, .input-group-lg >
+.input-group-btn > .btn, select.input-lg, select{
+border-radius: 0px!important}
+
